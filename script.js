@@ -8,30 +8,30 @@
 Você deve escrever o programa usando funções sempre que possível para separar os procedimentos. O programa também deve ter uma opção de “Sair” e enquanto ela não for escolhida deverá voltar ao menu.
 */
 
-function triangle(base, altura) {
+function triangle(base, height) {
     base = prompt('Digite o valor da base')
-    altura = prompt('Digite o valor da altura')
-    return alert((base*altura/2))
+    height = prompt('Digite o valor da altura')
+    return alert((base*height/2))
 }
-function retangle(base,altura){
+function retangle(base,height){
     base = prompt('digite o valor da base')
-    altura = prompt('digite o valor da altura')
+    height = prompt('digite o valor da altura')
     return alert(base*altura)
 }
-function square(lado){
-    lado1 = prompt('digite o valor do primeiro lado')
-    lado2 = prompt('digite o valor do segundo lado')
-    return alert(lado*lado)
+function square(side){
+    side1 = prompt('digite o valor do primeiro lado')
+    side2 = prompt('digite o valor do segundo lado')
+    return alert(side*side)
 }
-function trapeze(baseMaior, baseMenor, altura){ 
-    baseMaior = prompt('digite o valor da base maior')
-    baseMenor = prompt('digite o valor da base menor')
-    altura = prompt('digite o valor da altura')
-    return alert((baseMaior+baseMenor)*altura/2)
+function trapeze(baseLargest,baseSmallest, height){ 
+    baseLargest = prompt('digite o valor da base maior')
+    baseSmallest = prompt('digite o valor da base menor')
+    height = prompt('digite o valor da altura')
+    return alert((baseLargest+baseSmallest)*height/2)
 }
-function circle(raio){ 
-    raio = prompt('digite o valor do raio')
-    return alert(3.14*(raio*raio))
+function circle(ray){ 
+    ray = prompt('digite o valor do raio')
+    return alert(3.14*(ray*ray))
 }
 let menu = ''
 do{
