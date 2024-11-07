@@ -9,19 +9,29 @@ Você deve escrever o programa usando funções sempre que possível para separa
 */
 
 function triangle(base, altura) {
-    return paseInt(prompt((base*altura/2)))
+    base = prompt('Digite o valor da base')
+    altura = prompt('Digite o valor da altura')
+    return alert((base*altura/2))
 }
 function retangle(base,altura){
-    return paseInt(prompt((base*altura)))
+    base = prompt('digite o valor da base')
+    altura = prompt('digite o valor da altura')
+    return alert(base*altura)
 }
 function square(lado){
-    return paseInt(prompt((lado*lado)))
+    lado1 = prompt('digite o valor do primeiro lado')
+    lado2 = prompt('digite o valor do segundo lado')
+    return alert(lado*lado)
 }
-function trapeze(baseMaior, baseMenor, altura){
-    return paseInt(prompt(((baseMaior+baseMenor)*altura/2)))
+function trapeze(baseMaior, baseMenor, altura){ 
+    baseMaior = prompt('digite o valor da base maior')
+    baseMenor = prompt('digite o valor da base menor')
+    altura = prompt('digite o valor da altura')
+    return alert((baseMaior+baseMenor)*altura/2)
 }
-function circle(raio){
-    return paseInt(prompt((3.14*(raio*raio))))
+function circle(raio){ 
+    raio = prompt('digite o valor do raio')
+    return alert(3.14*(raio*raio))
 }
 let menu = ''
 do{
@@ -34,7 +44,7 @@ menu = prompt(`opção disponível
     6- sair`)
     switch(menu){
         case'1': 
-        triangle(parseInt(prompt('digite o valor')))
+        triangle()
         break
         case'2': 
         retangle(parseInt(prompt('digite o valor')))
