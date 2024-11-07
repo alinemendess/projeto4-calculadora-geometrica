@@ -34,19 +34,19 @@ menu = prompt(`opção disponível
     6- sair`)
     switch(menu){
         case'1': 
-        triangle(prompt('digite o valor'))
+        triangle(parseInt(prompt('digite o valor')))
         break
         case'2': 
-        retangle(prompt('digite o valor'))
+        retangle(parseInt(prompt('digite o valor')))
         break
         case'3':
-        square(prompt('digite o valor'))
+        square(parseInt(prompt('digite o valor')))
         break
         case'4':
-        trapeze(prompt('digite o valor'))
+        trapeze(parseInt(prompt('digite o valor')))
         break
         case'5':
-        circle(prompt('digite o valor'))
+        circle(parseInt(prompt('digite o valor')))
         break
         case'6': 
         alert('saindo...')
