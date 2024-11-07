@@ -9,19 +9,19 @@ Você deve escrever o programa usando funções sempre que possível para separa
 */
 
 function triangle(base, altura) {
-    return alert(base*altura/2)
+    return paseInt(prompt((base*altura/2)))
 }
 function retangle(base,altura){
-    return alert(base*altura)
+    return paseInt(prompt((base*altura)))
 }
 function square(lado){
-    return alert(lado*lado)
+    return paseInt(prompt((lado*lado)))
 }
 function trapeze(baseMaior, baseMenor, altura){
-    return alert((baseMaior+baseMenor)*altura/2)
+    return paseInt(prompt(((baseMaior+baseMenor)*altura/2)))
 }
 function circle(raio){
-    return alert(3.14*(raio*raio))
+    return paseInt(prompt((3.14*(raio*raio))))
 }
 let menu = ''
 do{
